@@ -1,0 +1,18 @@
+# Frontend (Next.js)
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+frontend/.DS_Store
+*.log
+
+# Backend (Python)
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+
+# Secrets - NEVER commit this file!
+backend/.env
+
+# IDE/Editor folders
+.vscode/
+.idea/
